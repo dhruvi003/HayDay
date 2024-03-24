@@ -1,0 +1,102 @@
+<%- include('partials/header'); -%>
+
+    <!-- <h1>hello</h1>
+<p>
+   
+</p> -->
+<%- include('partials/style'); -%>
+
+<!--Navigation bar-->
+    <div id="mynav" class="navbar-section disflex ">
+        <div class="logo-section ">
+            <img src="/images/White logo - no background.png" alt="" srcset="">
+        </div>
+
+        <div class="item-section">
+            <li class="dif">
+                <ul><a class=" item-color-black" href="./index.html">Home</a></ul>
+                <ul><a class=" item-color-black" href="./crop.html">Crops</a></ul>
+                <!-- <ul><a class=" item-color-black" href="">ipsum</a></ul> -->
+                <ul><a class=" item-color-black" href="contact.html">Contact</a></ul>
+            </li>
+        </div>
+
+    </div>
+    <!--end of Navigation bar-->
+
+    <h1><%= itemTitle %></h1>
+    <div class="crop-container">
+
+        <div class="crop-section">
+            <img class="crop-image" src=<%= picOne %> alt="sugarcane">
+
+            <div class="info-container">
+                <ul>
+                    <h2><%= futOne %></h2>
+                    <li> <%= firstUsage %> </li>
+
+                    <h2><%= suT %> </h2>
+                    <li> <%= secondUsage %> </li>
+                    <li> <%= secondUsagePointTwo %> </li>
+                   
+                    
+                </ul>
+    
+            </div>
+        </div>
+
+
+        <div class="crop-section">
+
+            <div class="crop-section">
+                
+    
+                <div class="info-container">
+                    <ul>
+                        
+                        <h2><%= futThree %></h2>
+                        <li> <%= tupo %></li> <!-- third usage point one -->
+                        <li><%= tupt %> </li>
+                        <br>
+
+                        <h2><%= futFour %> </h2>
+                        <li><%= fupo %></li>
+                        <li><%= fupt %> </li>
+                        
+                    </ul>
+        
+                </div>
+
+                <img class="crop-image" src="images/teaPicOne.jpg" alt="sugarcane">
+            </div>
+
+        </div>
+
+
+        <div class="crop-section">
+
+            <div class="crop-section">
+                <img class="crop-image" src= <%= picThree %>  alt="sugarcane">
+    
+                <div class="info-container">
+                    <ul>
+                      
+                        <h2><%= futFive %> </h2>
+                        <li> <%= fifthUsagePointOne %></li>
+                        <li><%= fifthUsagePointTwo %> </li>
+                        <li><%= fifthUsagePointThree %></li>
+                        <li> <%= fifthUsagePointFour %></li>
+                        <li> <%= fifthUsagePointFive %></li>
+                        <li> <%= fifthUsagePointSix %></li>
+                        
+                    </ul>
+        
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <%- include('partials/footer'); -%>
