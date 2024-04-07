@@ -15,5 +15,8 @@ Crop wastage is a significant problem affecting agricultural communities worldwi
 - **Interactive Interface**: Engage with interactive elements such as graphs, maps, and quizzes to enhance learning and awareness.
 
 
+![gfg-1](https://github.com/dhruvi003/HayDay/assets/108978196/0cbce417-03fd-46ae-851d-561003e3e26a)
+![gfg-4](https://github.com/dhruvi003/HayDay/assets/108978196/8dbcf938-c143-4219-b112-81c526198e9c)
+![gfg-3](https://github.com/dhruvi003/HayDay/assets/108978196/6e106d26-ab92-4029-b5df-3ac9ca3fabd9)
 
 
